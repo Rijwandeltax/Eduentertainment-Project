@@ -1,0 +1,246 @@
+body {
+	margin-top: 80px !important;
+	font-size: 17px !important;
+	font-weight: 400 !important;
+	color: #222 !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+
+.navbar {
+	background-color: #284c61 !important;
+	border-bottom: 2px solid white !important;
+	height: 80px;
+	z-index: 10000000 !important;
+}
+
+.navbar-brand {
+	padding-top: 4px !important;
+	margin: 5px 0px 0px -10px !important;
+}
+.navbar-brand-img {
+	width: 180px;
+	height: 60px;
+}
+.navbar-brand:hover {
+	opacity: .70 !important;
+}
+
+.navbar-toggle {
+	border-color: white !important;
+}
+.navbar-toggle:hover {
+	background-color: transparent !important;
+}
+.icon-bar {
+	background-color: white !important;
+}
+.navbar-nav {
+	margin-top: 30px !important;
+	margin-right: 80px !important;
+	float: right !important;
+}
+.navbar-nav a {
+	border-radius: 3px;
+	padding: 0px !important;
+	display: block;
+	width: 100px;
+	height: 35px;
+	line-height: 36px !important;
+	text-align: center;
+	margin-right: 2px !important;
+	color: white !important;
+	-webkit-transition: background-color .7s;
+	-moz-transition: background-color .7s;
+	transition: background-color .7s;
+	font-size: 15px !important;
+}
+.navbar-nav a:hover, .navbar-nav a.active {
+	background-color: white !important;
+	color: #284c61 !important;
+}
+
+/*........Drop down menu ......*/
+
+#dropdownMenu1 {
+	border-radius: 3px;
+	padding: 0px !important;
+	display: block;
+	width: 100px;
+	height: 35px;
+	background-color: #284c61;
+	border: 0px;
+	line-height: 36px !important;
+	text-align: center;
+	margin-right: 2px !important;
+	color: white !important;
+	-webkit-transition: background-color .7s;
+	-moz-transition: background-color .7s;
+	transition: background-color .7s;
+}
+
+#dropdownMenu1:hover {
+	background-color: white !important;
+	color: #22a7f0 !important;
+}
+
+.dropdown-menu {
+	margin-top: 12px !important;
+}
+
+a.dropdown-menu-a {
+	color: #22a7f0 !important;
+	width: 100%;
+	-webkit-transition: background-color .0s;
+	-moz-transition: background-color .0s;
+	transition: background-color .0s;
+}
+a.dropdown-menu-a:hover, a.active-download {
+	background-color: #22a7f0 !important;
+	color: white !important;
+}
+
+.login_box {
+	margin-top: -36px;
+	margin-right: -22px !important;
+}
+
+.login-btn {
+	border: 1px solid white !important;
+	background-color: transparent !important;
+	-webkit-transition: background-color .6s;
+	-moz-transition: background-color .6s;
+	transition: background-color .6s;
+}
+.login-btn:hover {
+	color: #22a7f0 !important;
+	border: 1px solid white;
+	background-color: white !important;
+}
+
+.search-icon-small {
+	display: none;
+}
+
+.search-box {
+	margin-right: -100px;
+	margin-top: 14px;
+	display: none;
+}
+
+.search-input {
+	width: 250px;
+	padding: 7px;
+	margin: 0;
+	height: 40px;
+	border-radius: 2px;
+	border: 2px solid black;
+	background-color: #333;
+	color: white;
+}
+
+.search-input::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+    display: block;
+    font-size: 16px;
+}
+
+.search-input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   display: block;
+    font-size: 16px;
+}
+
+.search-input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    display: block;
+    font-size: 16px;
+}
+
+/*..........................................Start slider................................*/
+
+#wrapper {
+	margin-top: 80px;
+	z-index: 1;
+	position: relative;
+}
+
+.welcome-box {
+	position: absolute;
+	width: 100%;
+	margin: 15% auto 0 auto;
+	z-index: 1000;
+	color: #111;
+	font-size: 20px;
+}
+.welcome-box>h1 {
+	font-size: 60px;
+}
+
+.banner_image {
+	width: 100%;
+}
+.cycle-slideshow {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+.cycle-prev, .cycle-next {
+	display: block;
+	position: absolute;
+	background-color: #22a7f0;
+	border-radius: 5px;
+	padding: 10px;
+	z-index: 9999;
+	top: 50%;
+	cursor: pointer;
+}
+.cycle-prev {
+	left: -5px;
+}
+.cycle-next {
+	right: 0;
+}
+.cycle-pager {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	text-align: center;
+	z-index: 999;
+}
+.cycle-pager span {
+	color: transparent;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.cycle-pager .cycle-pager-active {
+	background-color: #22a7f0;
+}
+
+/* .....................End Slider..................................*/
+
+.my-slider {
+	padding: 160px 0 160px 0;
+}
+
+.box-img {
+	width: 130px;
+}
+
+.educab-great-section {
+	background-color: #22a7f0;
+	color: white;
+	font-size: 16px;
+}
+
+.key{
+background-image:url("games.jpg");
+}

@@ -1,0 +1,172 @@
+@media only screen and (max-width: 767px){
+	body {
+		margin-top: 60px!important;
+	}
+	.navbar {
+		background-color: #1b8e89 !important;
+		border-bottom: 1px solid white !important;
+		height: 60px;
+	}
+
+	.navbar-brand {
+		padding-top: 4px !important;
+		margin: 0px !important;
+	}
+	.navbar-brand-img {
+		width: 180px;
+		height: 55px;
+	}
+
+	.navbar-toggle {
+		margin-top: 15px !important;
+	}
+
+	.navbar-nav {
+		margin-top: 2px !important;
+		border: 2px solid white !important;
+		float: none !important;
+		margin-right: -15px !important;
+	}
+	.navbar-nav a {
+		border-radius: 0px;
+		width: 100%;
+		height: 40px;
+		background-color: #1b8e89;
+		line-height: 41px !important;
+		margin-right: 0px !important;
+		border: 1px solid #284c61;
+	}
+
+	#dropdownMenu1 {
+		border-radius: 0px;
+		width: 100%;
+		height: 40px;
+		background-color: #284c61;
+		line-height: 41px !important;
+		margin-right: 0px !important;
+		border: 1px solid #284c61;
+	}
+
+	.dropdown-menu {
+		margin: 0 !important;
+		padding: 0 !important;
+		border: 1px solid white !important;
+	}
+	a.dropdown-menu-a {
+		color: white !important;
+	}
+	a.dropdown-menu-a:hover {
+		background-color: white !important;
+		color: #284c61 !important;
+	}
+
+	.login_box {
+		display: none;
+	}
+		/* for big screen */
+	.search-icon {
+		display: none;
+	}
+	.search-icon-small {
+		display: block;
+		float: right;
+		margin: -37px 60px 0 0;
+	}
+	.search-box {
+		margin-right: 0px;
+		margin-top: 3px;
+		display: none;
+	}
+
+
+
+	#wrapper {
+		margin-top: -20px;
+	}
+
+	.welcome-box {
+		margin: 10% auto 0 auto;
+		z-index: 1000;
+		color: #111;
+		font-size: 17px;
+	}
+	.welcome-box>h1 {
+		font-size: 30px;
+	}
+	.cycle-prev, .cycle-next {
+		top: 40%;
+		padding: 5px;
+	}
+	.prev_img, .next_img {
+		width: 20px;
+	}
+	.cycle-pager {
+		bottom: 5px;
+	}
+	.cycle-pager span {
+		width: 8px;
+		height: 8px;
+		margin: 0 5px;
+	}
+
+	.footer_btn_link {
+		margin-top:20px; 
+	}
+	
+	.ek-bar {
+		margin-bottom: 10px;
+	}
+	.anil-box {
+		width: auto;
+		margin: 0;
+	}
+
+	/*...scroll to top......*/
+	.scrollToTop{
+		border-radius: 50%; 
+		background-color: rgba(34,167,240,.75);
+		position:fixed;
+		top:80%;
+		right:1%;
+	}
+	.scroll-top-img {
+		width: 45px;
+		height: 45px;
+	}
+
+	/*===For responsive google map====*/
+	.google-map {
+		width: 100%;
+		height: 150px;
+	}
+	/*===End responsive google map====*/
+
+/*==============Downloads pages==========================*/
+	.categori-btn {
+		display: block !important;
+	}
+
+	ul#categories-dropdown {
+		position: fixed;
+		display: none;
+		right: 2%;
+	}
+	#categories {
+		padding-top: 10px;
+		border: 0px;
+		display: none;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 535px){
+	.welcome-box {
+		display: none;
+	}
+}
